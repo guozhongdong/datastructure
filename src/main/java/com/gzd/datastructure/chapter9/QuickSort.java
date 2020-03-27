@@ -11,7 +11,7 @@ package com.gzd.datastructure.chapter9;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] nums = {9,1,5,8,3,7,4,6,2};
+        int[] nums = {6,1,5,8,3,7,4,9,2};
         new QuickSort().quickSort(nums,0,8);
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i]+" ");
